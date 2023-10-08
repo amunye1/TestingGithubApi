@@ -18,4 +18,9 @@ class SortNumberTest {
         Assert.assertEquals(correctNum, sortNumberLocgic.sortStringDigits("6", "2 3 6 2 3 2", "2"))
 
     }
+    @Test
+    fun `check if number is not equal to correct number`(){
+        val incorrectNumber ="112363"
+        Assert.assertNotEquals(incorrectNumber,sortNumberLocgic.sortStringDigits("6", "2 3 6 2 3 2", "2"))
+    }
 }
