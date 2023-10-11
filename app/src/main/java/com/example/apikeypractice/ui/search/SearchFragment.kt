@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.apikeypractice.databinding.FragmentSearchBinding
 import dagger.hilt.android.AndroidEntryPoint
 
+
 @AndroidEntryPoint
 class SearchFragment : Fragment() {
 
